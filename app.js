@@ -33,7 +33,7 @@ app.post("/", function(req, res){
 	const url = "https://us20.api.mailchimp.com/3.0/lists/0a99d58004";
 	const options = {
 		method: "POST",
-		auth: "pranjal21:b7d4b80b02610fcc0304cc170355b807-us20a"
+		auth: "pranjal21:b7d4b80b02610fcc0304cc170355b807-us20"
 	};
 
 	const request = https.request(url, options, function(response){
